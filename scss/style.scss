@@ -1,0 +1,60 @@
+@import "variables";
+@import "fuente";
+@import "generales";
+@import "navbar";
+@import "footer";
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: rgba(179, 235, 200, 0.215);
+    font-size: $tam-fuente;
+}
+
+h1{
+    font-size: $tam-titulo;
+    margin-left: 3%;
+}
+
+.imgCarousel {
+    height: 550px;
+    object-fit: cover;
+}
+.card { 
+    background-color: rgba(55, 130, 84, 0.215);
+
+}
+
+.card-body {
+    height: 55rem;
+}
+
+.contenedorTabla{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.tabla{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.table{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-thumbnail{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+article {
+    width: 500px;
+    height: 700px;
+}
+
